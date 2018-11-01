@@ -16,7 +16,7 @@ class Book
   ##this seems redundant - what are we doing
 
 
-  attr_accessors :author, :page_count, :genre
+  attr_accessor :author, :page_count, :genre
   attr_reader :title
 
   def turn_page
